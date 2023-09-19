@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-conteiner{
+    background: rgb(77,189,212);
+    background: linear-gradient(90deg, rgba(77,189,212,1) 4%, rgba(37,115,173,1) 58%);
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+}
+position: absolute;
+    left: 30%;
+.svg-img{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 55%;
+    right: 10%;
+    font-weight: bold;
+}
+.paragraph{
+    padding: 40px 0px 40px 30px;
+    font-size: 1.3em;
+}
+.number-text{
+    padding: 0px 30px;
+    font-size: 2.2em;
+}
+.circle{
+    z-index: 1;
+}
+.circle-box1{
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    right: -5%;
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.222);
+    );
+}
+.circle-box2{
+    width: 300px;
+    height:300px;
+    bottom: 20%;
+    left: 70%;
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.222);
+}
+.text-conteiner{
+    color: white;
+    font-weight: 900;
+    z-index: 2;
+}
