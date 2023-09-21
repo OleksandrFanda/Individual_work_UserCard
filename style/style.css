@@ -1,62 +1,56 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
+.full-page{
+    font-family: 'Courier New', Courier, monospace;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .card-conteiner{
     background: rgb(77,189,212);
     background: linear-gradient(90deg, rgba(77,189,212,1) 4%, rgba(37,115,173,1) 58%);
     width: 500px;
     height: 300px;
-    position: absolute;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
     border-radius: 10px;
 }
-position: absolute;
-    left: 30%;
-.svg-img{
+.text-conteiner{
+    color: white;
+    font-weight: lighter;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 55%;
-    right: 10%;
-    font-weight: bold;
+    flex-direction: column;
+}
+.line-marker{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
 }
 .paragraph{
-    padding: 40px 0px 40px 30px;
+    padding: 50px 0px 40px 30px;
     font-size: 1.3em;
+}
+.svg-img{
+    width: 50px;
+    height: 30px;
 }
 .number-text{
     padding: 0px 30px;
     font-size: 2.2em;
 }
-.circle{
-    z-index: 1;
-}
 .circle-box1{
     width: 300px;
     height: 300px;
     top: 50%;
-    right: -5%;
+    right: 25%;
     position: absolute;
-    border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.222);
-    );
 }
 .circle-box2{
     width: 300px;
-    height:300px;
-    bottom: 20%;
-    left: 70%;
+    height: 300px;
+    bottom: 30%;
+    left: 55%;
     position: absolute;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.222);
-}
-.text-conteiner{
-    color: white;
-    font-weight: 900;
-    z-index: 2;
 }
