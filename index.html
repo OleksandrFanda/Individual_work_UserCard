@@ -7,24 +7,101 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/style.css">
+    
 </head>
 <body>
-    <section class="full-page">
-        <div class="card-conteiner">
-            <div class="text-conteiner">
-                <div class="line-marker">
-                    <p class="paragraph">Weekly Orders</p>
-                    <svg class="svg-img" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50"
-                        style="fill:#FFFFFF;">
-                        <path d="M 12.8125 2 C 12.335938 2.089844 11.992188 2.511719 12 3 L 12 47 C 11.996094 47.359375 12.1875 47.691406 12.496094 47.871094 C 12.804688 48.054688 13.1875 48.054688 13.5 47.875 L 25 41.15625 L 36.5 47.875 C 36.8125 48.054688 37.195313 48.054688 37.503906 47.871094 C 37.8125 47.691406 38.003906 47.359375 38 47 L 38 3 C 38 2.449219 37.550781 2 37 2 L 13 2 C 12.96875 2 12.9375 2 12.90625 2 C 12.875 2 12.84375 2 12.8125 2 Z M 14 4 L 36 4 L 36 45.25 L 25.5 39.125 C 25.191406 38.945313 24.808594 38.945313 24.5 39.125 L 14 45.25 Z"></path>
-                    </svg>
-                </div>
-                <h2 class="number-text">45,6334</h2>
-                <p class="paragraph">Descreased by 10%</p>
-                <div class="circle-box1"></div>
-                <div class="circle-box2"></div>
-            </div>
+    <header class="header">
+        <div class="header-top">
+            <img src="./images/Logo.png" alt="Logo">
+            <a href="#nav-menu">
+                <img src="./images/Icon-Burger-menu.png" alt="Burger-menu">
+            </a>
         </div>
-    </section>
+        <div class="header-footer">
+            <img src="./images/Sound waves.png" alt="">
+            <h1>The world shades.
+                <br>
+                Your music shines.
+            </h1>
+        </div>
+    </header>
+    <nav class="nav-menu" id="nav-menu">
+        <div class="nav-avatar">
+            <img src="/images/Logo.png" alt="Logo">
+            <a href="#home">
+                <img src="/images/Icon-Close.png" alt="Icon-close">
+            </a>
+        </div>
+        <ul class="nav-list">
+            <li><a class="nav-item" href="#">Home</a></li>
+            <li><a class="nav-item" href="#recommended">Recommended</a></li>
+            <li><a class="nav-item" href="#browse">Categories</a></li>
+            <li><a class="nav-item" href="#why-buy">How to buy</a></li>
+        </ul>
+    </nav>
+    <main class="main">
+        <section id="recommended">
+            <h2 class="tag">Recommended</h2>
+            <div class="card-conteiner">
+                <div class="card-items">
+                    <img class="img-card" src="./images/Layer 51@1,5x (1).png" alt="Layer foto">
+                    <h2 class="img-h2-text">Bose portable Smart speaker</h2>
+                    <p>Smart home</p>
+                    <h2 class="img-h2-text">$ 399.00</h2>
+                </div>
+                <div class="card-items">
+                    <img class="img-card" src="./images/Layer 51@1,5x (2).png" alt="Layer foto2">
+                    <h2 class="img-h2-text">SoundLink Flex Bluetooth speaker</h2>
+                    <p>Portable bluetooth</p>
+                    <h2 class="img-h2-text">$ 149.00</h2>
+                </div>
+                <div class="card-items">
+                    <img class="img-card" src="./images/Layer 51@1,5x (3).png" alt="Layer foto3">
+                    <h2 class="img-h2-text">SoundLink Color Bluetooth speaker II</h2>
+                    <p>Portable bluetooth</p>
+                    <h2 class="img-h2-text">$ 129.00</h2>
+                </div>
+            </div>
+        </section>
+        <section class="browse" id="browse">
+            <h2 class="tag">Browse Bose <br> products by category</h2>
+            <article class="browse-card">
+                <div class="brows-item">
+                    <img class="foto-wide" src="./images/Boss_landing/Vector.png" alt="Vector foto">
+                    <img class="foto-squere"g src="./images/Boss_landing/Layer 51@1,5x (1).png" alt="vector fot1">
+                </div>
+                <p class="browse-paragraph">Headphones & earbuds</p>
+            </article>
+            <article class="browse-card">
+                <div class="brows-item">
+                    <img class="foto-wide" src="./images/Boss_landing/Layer 48@1,5x.png" alt="layer 48">
+                    <img class="foto-squere" src="./images/Boss_landing/Layer 50@1,5x.png" alt="layer 50">
+                </div>
+                <p class="browse-paragraph">Speakers</p>
+            </article>
+            <article class="browse-card">
+                <div class="brows-item">
+                    <img class="foto-squere" src="./images/Boss_landing/Layer 51@1,5x (2).png" alt="layer51">
+                    <img class="foto-wide" src="./images/Boss_landing/0022 1.png" alt="0022">
+                </div>
+                <p class="browse-paragraph">Audio sunglasses</p>
+            </article>
+        </section>
+        <section class="why-buy" id="why-buy">
+            <h2 class="why-buy-title">Why buy direct <br> from Bose</h2>
+            <div class="why-buy-content">
+                <ul class="why-buy-benefits">
+                    <li>Free 2-day shipping and returns</li>
+                    <li>90-day risk-free trial</li>
+                    <li>World class customer service</li>
+                    <li>My Bose account management</li>
+                </ul>
+            <p class="why-buy-description">A great product is more than what’s in the box. It’s a promise of premium performance, world-class support, and everything you expect from a trusted brand. It’s just one of many reasons why you’ll shop with confidence on Bose.com.</p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+
+    </footer>
 </body>
 </html>
